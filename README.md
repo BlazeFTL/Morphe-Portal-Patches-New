@@ -4,7 +4,7 @@ Custom Morphe patches for Meta Portal apps.
 
 A Fork Of https://github.com/andronedev/morphe-portal-patch To Make The Patches Compatible With Latest Morphe Patcher
 
-Use Along Morphe Patches For YouTube Otherwise Only Using These Patches May Crash The App
+Use Along Morphe Patches For YouTube Otherwise Only Using These Patches May Crash The App Or Basically Patch On Top Of A Already Patched Morphe YouTube Build
 
 This repo is Portal-scoped: it only holds patches for apps that run on Meta Portal.
 
