@@ -6,6 +6,8 @@ A Fork Of https://github.com/andronedev/morphe-portal-patch To Make The Patches 
 
 Use Along Morphe Patches For YouTube Otherwise Only Using These Patches May Crash The App
 
+This repo is Portal-scoped: it only holds patches for apps that run on Meta Portal.
+
 ## ❓ About
 
 Forces YouTube / YouTube Music to run at a higher display density on low-DPI devices like Meta
