@@ -2,7 +2,7 @@ package app.morphe.patches.youtube.dpi
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
-import app.morphe.patcher.patch.intOption
+import app.morphe.patcher.patch.option
 import app.morphe.patches.youtube.dpi.Constants.COMPATIBILITY_YOUTUBE
 import app.morphe.patches.youtube.dpi.Constants.COMPATIBILITY_YOUTUBE_MUSIC
 import app.morphe.util.findFreeRegister
@@ -23,18 +23,18 @@ val customDpiPatch = bytecodePatch(
 
     extendWith("extensions/youtube.mpe")
 
-    val dpiOption = intOption(
+    val dpiOption = option<Long>(
         key = "dpi",
-        default = 240,
+        default = 240L,
         title = "Custom DPI",
         description = "Forced display density in dots-per-inch for this app only. " +
             "160 = system default (mdpi), 240 is roughly 1.5x larger. Range 96-640.",
         required = false,
-        validator = { it == null || it in 96..640 },
+        validator = { it == null || it in 96L..640L },
     )
 
     execute {
-        val dpi = dpiOption.value ?: 240
+        val dpi = (dpiOption.value ?: 240L).toInt()
 
         val applicationType = ApplicationFingerprint.methodOrNull?.definingClass ?: return@execute
         val applicationClass = mutableClassDefByOrNull(applicationType) ?: return@execute
