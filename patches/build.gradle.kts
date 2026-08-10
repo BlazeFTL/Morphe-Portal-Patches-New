@@ -1,15 +1,14 @@
-group = "app.template"
+group = "app.morphe"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Morphe Portal Patches"
+        description = "Custom Morphe patches for Meta Portal apps"
+        source = "git@github.com:BlazeFTL/Morphe-Portal-Patches-New.git"
+        author = "BlazeFTL"
         contact = "na"
-        website = "na"
-        license = "GPLv3"
+        website = "https://github.com/BlazeFTL/Morphe-Portal-Patches-New"
+        license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }
 

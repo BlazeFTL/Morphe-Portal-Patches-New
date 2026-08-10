@@ -1,12 +1,12 @@
-# 👋🧩 Morphe Patches template
+# 👋🧩 Morphe Portal Patches
 
-Template repository for Morphe Patches.
+Custom Morphe patches for Meta Portal apps.
 
 ## ❓ About
 
-Patches for apps I like.
-
-TODO: Update this about section with a brief introduction/summary about this repo and what it offers.
+Forces YouTube / YouTube Music to run at a higher display density on low-DPI devices like Meta
+Portal, removes the experimental-version nag dialog, and lets the app versionName be overridden
+so re-patched builds are recognised as updates.
 
 ## 🩹 Patches list
 
@@ -78,9 +78,9 @@ Or manually add this repository url as a patch source in Morphe: https://github.
 
 ### 🛠️ Building
 
-To build UserXYZ Patches,
+To build Morphe Portal Patches,
 you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Morphe Portal Patches are licensed under the [GNU General Public License v3.0](LICENSE)
