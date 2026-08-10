@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/BlazeFTL/Morphe-Portal-Patches-New/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-10)
+
+### ✨ New Features
+
+* up ([59fcd73](https://github.com/BlazeFTL/Morphe-Portal-Patches-New/commit/59fcd7338152d92c10578581da7a1c7674b7b018))
+
 ## [1.0.0-dev.2](https://github.com/BlazeFTL/Morphe-Portal-Patches-New/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-10)
 
 ### ✨ New Features
