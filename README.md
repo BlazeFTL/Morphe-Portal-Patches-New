@@ -1,6 +1,6 @@
 # 👋🧩 Morphe Portal Patches
 
-Custom Morphe patches for Meta Portal apps
+Custom Morphe patches for Meta Portal apps.
 
 ## ❓ About
 

@@ -34,6 +34,19 @@ package app.morphe.util
 
 import app.morphe.patcher.patch.BytecodePatchContext
 import app.morphe.patcher.util.proxy.mutableTypes.MutableClass
+import com.android.tools.smali.dexlib2.iface.instruction.Instruction
+import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
+import com.android.tools.smali.dexlib2.iface.reference.Reference
+
+/**
+ * Get the [Reference] of an [Instruction] as [T].
+ *
+ * @param T The type of [Reference] to cast to.
+ * @return The [Reference] as [T] or null
+ * if the [Instruction] is not a [ReferenceInstruction] or the [Reference] is not of type [T].
+ * @see ReferenceInstruction
+ */
+inline fun <reified T : Reference> Instruction.getReference() = (this as? ReferenceInstruction)?.reference as? T
 
 /**
  * Traverse the class hierarchy starting from the given root class.
