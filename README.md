@@ -2,6 +2,8 @@
 
 Custom Morphe patches for Meta Portal apps.
 
+A Fork Of https://github.com/andronedev/morphe-portal-patch To Make The Patches Compatible With Latest Morphe Patcher
+
 ## ❓ About
 
 Forces YouTube / YouTube Music to run at a higher display density on low-DPI devices like Meta
